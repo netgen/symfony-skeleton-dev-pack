@@ -1,0 +1,27 @@
+{
+    "name": "netgen/symfony-skeleton-dev-pack",
+    "type": "symfony-pack",
+    "require": {
+        "netgen/git-hooks": "^2.5",
+        "php-cs-fixer/shim": "^3.64",
+        "phpstan/phpstan": "^1.12",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan-strict-rules": "^1.6",
+        "phpstan/phpstan-symfony": "^1.4",
+        "phpstan/phpstan-doctrine": "^1.5"
+    },
+    "require-dev": {
+        "netgen/git-hooks": "^2.5",
+        "php-cs-fixer/shim": "^3.64",
+        "phpstan/phpstan": "^1.12",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan-strict-rules": "^1.6",
+        "phpstan/phpstan-symfony": "^1.4",
+        "phpstan/phpstan-doctrine": "^1.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
